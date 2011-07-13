@@ -1,0 +1,10 @@
+###############################
+## My So Called Game Of Life ##
+###############################
+
+node powered Game Of Life implementation. 
+Uses ncurses to get current terminal width and height.
+
+Run with:
+node mysocalledlife.js
+
