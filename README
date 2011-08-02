@@ -8,3 +8,14 @@ Uses ncurses to get current terminal width and height.
 Run with:
 node mysocalledlife.js
 
+Make sure you install the npm ncurses modules and you'll probably need to follow these instructions:
+
+(taken from: https://github.com/mscdex/node-ncurses)
+
+If you encounter "Error opening terminal" while executing one of the examples or any other script that uses node-ncurses, do this:
+
+Ensure you have built node-ncurses properly
+Change to deps/ncurses in the source package
+Execute sudo make install.data
+That should solve this particular problem.
+
